@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    background-color: orange;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 80px;
+}
+.logo {
+    font-size:30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+.logo:hover{
+    transform: scale(1.5);
+    transition:0.4s ease;
+    color:white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 50px;
+    overflow: hidden;
+}
+ul li {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ul li a{
+    display:block;
+    text-decoration:none;
+    font-size:18px;
+    border-radius: 14px;
+    padding:10px 20px;
+    text-align: center;
+    color: black;
+}
+ul li a:hover{
+  background-color: blue;
+  color: white;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:500px;
+    padding:0 100px;
+}
+.left{
+    max-width:500px;
+}
+.bts {
+    width: 140px;
+    text-decoration: none;
+    font-size:18px;
+    padding:6px 12px;
+    color:white;
+    margin-top:20px;
+    border:none;
+    border-radius: 8px;
+    text-align: center;
+    background-color:blue;
+    box-shadow: inset 0px -4px 10px rgba(0,0,0,0.4);
+    display:block;
+    cursor:pointer;
+}
+.bts:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color:orange;
+    font-weight: bold;
+}
+.left h3{
+     font-size:28px;
+     margin-bottom:26px;
+}
+.left h1{
+    margin-bottom:26px;
+}
+h1 b{
+    color:blue;
+}
+.left h2{
+    font-size: 28px;
+}
+ p{
+  margin-top:10px;
+  font-size:16px;
+ 
+}
+.right img{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: inset 0 -10px 20px rgba(0,0,0,0.4), 4px 8px 16px black; 
+    border:none;
+}
+.right img:hover{
+    transform: scale(1.1);
+    transition:0.5s ease;
+}
+.icons{
+    display:flex;
+    gap:20px;
+    margin-left:8px;
+    margin-top:14px;
+}
+.icons a{
+    font-size:20px;
+}
+.github{
+    color:#181717;
+}
+.linkedin {
+    color:#0A66C2;
+}
+.mail{
+    color:#EA4335;
+}
+.icons a:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+footer{
+    background-color: #181717;
+    padding:30px 20px;
+    color:white;
+    text-align: center;
+    margin-top:70px;
+}

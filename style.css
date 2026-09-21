@@ -46,7 +46,7 @@ ul li a{
     color: black;
 }
 ul li a:hover{
-  background-color: blue;
+  background-color: gray;
   color: white;
 }
 .home{
